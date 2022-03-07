@@ -1,0 +1,81 @@
+<!-- This is for the main header-->
+<header class="title">
+  <h1>CSS Common Reference</h1>
+</header>
+
+<!--item 8 I can see a nav element with a corresponding id navbar-->
+<aside>
+  <nav id="navbar" class="navbar">
+    <!--item 9, the navbar element should contain one header element which contains text that describes the topic of the technical documentation-->
+    <header>
+      <h2>CSS Reference Quicklinks</h2>
+    </header>
+    <!--item 11, the header element in navbar must come before any link elements-->
+    <!--item 10, the navbar should contain link elements with the class of nav-link, there should be one per element in class main-section.
+item 12, each element with class nav-link should contain text with each section corresponding to header text within each section.
+item 13, click on navbar-link should navigate to corresponding section  of main doc element-->
+    <a href="#text_settings" class="nav-link">Text Settings</a>
+    <a href="#background_settings" class="nav-link">Background Settings</a>
+    <a href="#box_model" class="nav-link">Box Model</a>
+    <a href="#flex_box" class="nav-link">Flex Box</a>
+    <a href="#grid" class="nav-link">Grid</a>
+  </nav>
+</aside>
+
+<!--item 1, I can see a main element with a corresponding id="main-doc"-->
+<main id="main-doc">
+  <!--item 2, with main-doc element,at least 5 section elements each wiht class main-section-->
+  <!-- item 4, each section element with the class of main-section should also have an id that correspends with the text of each hader contained within it-->
+  <section class="main-section" id="text_settings">
+    <!--item 3, first element within each main-section should be a header element which contains text that describes the topin of that section-->
+    <!-- item 6, the main-section elements should contain at least 5 code elements total.
+item 7, the main-section elements should contain at least 5 li items total-->
+    <header class="section-header">
+      <h2 id="text-settings">Text Settings</h2>
+    </header>
+    <!--item 5, the main-section elements should contain a combined total of at least 10 p elements-->
+    <p>The text settings for CSS can be broken down into two categories, those setings that relate to the text itself, and those settings that relate to the physical appearance of the text through font settings</p>
+    <h3>Text alignments</h3>
+    <p>The text location on the page can be manipulated in several ways simply through settings directly addressed to the text.</p>
+      <li><code>text-color</code> allows a developer to change the color of the text. The rule of thumb is to make sure it contrasts with the color behind the text.</li>
+      <li>The text alignment traits provide several methods to direct the location of the text, including <code>text-align</code>; <code>text-align-last</code>; <code>direction</code>; <code>unicode-bidi</code>; and <code>vertical-align</code>.</li>
+      <li> The text decoration traits provide for lines around the text, whether underlining the text, striking through the text, or placing a line above. The traits include <code>text-decoration-line</code>; <code>text-decoration-color</code.>; <code>text-decoration-style</code>; and <code>text-decoration-thickness</code>.</li>
+      <li>The text spacing attributes adjusts the amount of space between text and other objects, including the text itself. Attributes include <code>letter-spacing</code>, <code>line-height</code>, <code>text-indent</code>, <code>white-spacing</code>, and <code>word-spacing</code>.
+    <h3>Font settings</h3>
+       <p>The font settings handle the appearence of the text.</p>
+       <p>The basic settings are covered under the <code>font-family</code> attribute. All font families fall into thefive basic catagories: 
+         <li><code>serif</code>,</li> 
+         <li><code>sans-serif</code>, </li>
+         <li><code>monospace</code>, </li>
+         <li><code>cursive</code>, and </li>
+         <li><code>fantasy</code>.</li></p>
+  </section>
+  <section class="main-section" id="background_settings">
+    <header class="section-header">
+      <h2 id="background-settings">Background Settings</h2>
+    </header>
+    <p></p>
+    <p></p>
+  </section>
+  <section class="main-section" id="box_model">
+    <header class="section-header">
+      <h2 id="box-model">Box Model</h2>
+    </header>
+    <p></p>
+    <p></p>
+  </section>
+  <section class="main-section" id="flex_box">
+    <header class="section-header">
+      <h2 id="flex-box">Flex Box</h2>
+    </header>
+    <p></p>
+    <p></p>
+  </section>
+  <section class="main-section" id="grid">
+    <header class="section-header">
+      <h2 id="grid">Grid</h2>
+    </header>
+    <p></p>
+    <p></p>
+  </section>
+</main>
